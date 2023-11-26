@@ -1,0 +1,95 @@
+{
+  "usuario": [
+      {
+          "id": 1,
+          "nameUser": "Gina",
+          "apellido":"Cortes",
+          "celular":"6869893",
+          "nick_name":"GinaC"
+      }
+  ],
+  "egresos": [
+      {
+          "id": 1,
+          "user_id":1,
+          "tipo": "vivienda",
+          "valor": 200,
+          "descripcion":"Pagos servicios",
+          "fecha_creacion":"24-11-2023"
+      }
+  ],
+  "tipo_egresos": [
+      {
+          "id": 1,
+          "tipo": "vivienda",
+          "fecha_creacion": "26-11-2023"
+      },
+      {
+          "id": 2,
+          "tipo": "alimentacion",
+          "fecha_creacion": "26-11-2023"
+      },
+      {
+          "id": 3,
+          "tipo": "deudas",
+          "fecha_creacion": "26-11-2023"
+      },
+      {
+          "id": 4,
+          "tipo": "viajes",
+          "fecha_creacion": "26-11-2023"
+      },
+      {
+          "id": 5,
+          "tipo": "universidad",
+          "fecha_creacion": "26-11-2023"
+      },
+      {
+          "id": 6,
+          "tipo": "transporte",
+          "fecha_creacion": "26-11-2023"
+      },
+      {
+          "id": 7,
+          "tipo": "salud",
+          "fecha_creacion": "26-11-2023"
+      },
+      {
+          "id": 8,
+          "tipo": "varios",
+          "fecha_creacion": "26-11-2023"
+      }
+  ],
+  "ingresos":  [
+      {
+          "id": 1,
+          "user_id":1,
+          "tipo": "salario",
+          "valor": 300,
+          "descripcion":"pago quincena",
+          "fecha_creacion":"24-11-2023"
+      }
+  ],
+  "tipo_ingresos": [
+      {
+          "id": 1,
+          "tipo": "salario",
+          "fecha_creacion": "26-11-2023"
+      },
+      {
+          "id": 2,
+          "tipo": "dividendos",
+          "fecha_creacion": "26-11-2023"
+      },
+      {
+          "id": 3,
+          "tipo": "renta",
+          "fecha_creacion": "26-11-2023"
+      },
+      {
+          "id": 4,
+          "tipo": "bonos",
+          "fecha_creacion": "26-11-2023"
+      }
+  ]
+}
