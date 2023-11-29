@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import style from './homeStyle.module.css';
 
 const Home = () => {
+  useEffect(()=> {
+    
+  },[])
     const [selectedDate, setSelectedDate] = useState(new Date());
     const markedDates = [
         new Date(2023, 10, 25),
@@ -22,7 +26,8 @@ const Home = () => {
       };
   
     return (
-      <div>
+      <div className={style.containerCalendar}>
+        <h1>{}</h1>
         <Calendar
           onChange={setSelectedDate}
           value={markedDates}
